@@ -21,6 +21,8 @@ internal | pkg
 > [**graceful shutdown**](https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/)  
 > [**structured logging**](https://betterstack.com/community/guides/logging/logging-in-go/)  
 > [**dependecny injection**](https://stackoverflow.com/questions/41900053/is-there-a-better-dependency-injection-pattern-in-golang)
+>
+> [**go-blueprint**](https://github.com/Melkeydev/go-blueprint)
 
 ```sh
 syntax = "proto3";
