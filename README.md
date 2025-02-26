@@ -1,6 +1,28 @@
 # GRPC
 
 ```sh
+cmd
+    - api
+        - main.go
+config
+    - local.yaml
+internal | pkg
+    - config
+        - config.go
+    - http
+        - handlers
+            - posts
+                - posts.go
+    - types
+        - types.go
+```
+
+> [**cleanenv**](https://github.com/ilyakaznacheev/cleanenv)  
+> [**graceful shutdown**](https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/)  
+> [**structured logging**](https://betterstack.com/community/guides/logging/logging-in-go/)  
+> [**dependecny injection**](https://stackoverflow.com/questions/41900053/is-there-a-better-dependency-injection-pattern-in-golang)
+
+```sh
 syntax = "proto3";
 
 package hello;
